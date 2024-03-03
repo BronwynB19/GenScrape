@@ -1,0 +1,17 @@
+Here's what i have
+    Generates a fasta file containing all the species names, vouchers*, and sequences of every entry in a column of
+        a specified gene
+    It only works with one column per one sheet per run
+    I want to finish the genscrape_function Tester before implementing it into the actual file
+Here's what i need to do
+    Update the code so that it can take parameter-specified information
+    Put the tester code into the genscrape function
+    Figure out if stormie needs me to basically do this for every single sheet (NEED every sheet in same file)
+    Address the seemingly funny entries like MF274967.1 'uncultured bacterium clone'
+    Figure out what to do about the ones with no voucher numbers
+    We have sequence data, remember what i was blasting in the first place?
+    Figure out how to get the vouchers for entries that dont have voucher numbers in the genbank title
+    What sheets do i need to worry about
+        HBGPredata, carid master,
+    9 fasta files, one for each gene
+    indicate which ones where missing/not

@@ -1,0 +1,18 @@
+# Pseudocoooode :)
+
+"""
+Started on 10/25/23
+Goal and steps subject to change as I figure out how to define and solve the issue.
+I still need to talk to Stormie about what exactly she needs, but right now all im doing is playing
+around with regular expressions to get certain information from GenBank given an accession number.
+"""
+
+# Goal: Use web scraping to help automate Stormie's GenBank Mining
+
+Step 1: Generate text of the results given an accession number (easy)
+    also should be able to use user input for accession number, which ill have to automate, -
+    - prolly read through an Excel or csv file
+Step 2: Write the information to a file
+    How am I gonna name these?
+    if 'number' in 'HBG column', start file with HBG 'DB number', else if 'number' in 'ULLZ column', etc
+Step 3:
